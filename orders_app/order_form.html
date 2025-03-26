@@ -1,0 +1,16 @@
+<form method="post" class="container">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label class="form-label">{{ form.device.label }}</label>
+        {{ form.device }}
+    </div>
+    <div class="mb-3">
+        <label class="form-label">{{ form.customer.label }}</label>
+        {{ form.customer }}
+    </div>
+    <div class="mb-3">
+        <label class="form-label">{{ form.order_status.label }}</label>
+        {{ form.order_status }}
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

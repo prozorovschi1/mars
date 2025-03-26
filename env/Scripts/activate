@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\user\Desktop\Python projects\mars\env"
+VIRTUAL_ENV="C:\Users\user\Desktop\Python projects\mars\mars_service\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
